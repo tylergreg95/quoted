@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.welcome, .quote-display {
+  background-image: linear-gradient(to right, #6096B4, #93BFCF);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome, .quote-display h1 {
+  color: white;
+}
+
+.quote-display h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.enter-button, .quote-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: #EEE9DA;
+  color: black;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.enter-button:hover, .quote-btn:hover{
+  background-color: #BDCDD6;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+.quote-display p {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
